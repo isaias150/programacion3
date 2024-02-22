@@ -7,11 +7,3 @@ class estudiante:
 
     def imprimir_nombre(self):
         print("Nombre:", self.nombre)
-
-if __name__ == "__main__":
-    # Creamos un objeto de la clase Persona
-    persona = estudiante("Gabriel", "Fox", "gfoxca@gmail.com", "123456789")
-
-    # Llamamos al método para imprimir el nombre
-    persona.imprimir_nombre()
-    
